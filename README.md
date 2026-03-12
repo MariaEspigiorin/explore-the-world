@@ -1,73 +1,126 @@
-# React + TypeScript + Vite
+# 🌍 Explore the World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Explore the World é uma landing page de viagens com visual cinematográfico, desenvolvida com **React, TypeScript e TailwindCSS**.
 
-Currently, two official plugins are available:
+O projeto foi criado como parte do meu **portfólio de desenvolvimento front-end**, com o objetivo de explorar layouts modernos, animações suaves e experiências visuais imersivas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Demonstração
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Acesse o projeto online:  
+ explore-the-world-kappa.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Funcionalidades
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Hero Section com **efeito Parallax**
+- Menu de navegação **responsivo para mobile**
+- Animações suaves de entrada ao rolar a página
+- Cards interativos de destinos
+- Layout moderno com **TailwindCSS**
+- Animações com **Framer Motion**
+- Carregamento otimizado de imagens
+- Interface **totalmente responsiva**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠 Tecnologias utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Este projeto foi desenvolvido utilizando:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React**
+- **TypeScript**
+- **TailwindCSS**
+- **Framer Motion**
+- **Lucide Icons**
+- **Vite**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📂 Estrutura do Projeto
+
+-src/
+-components/
+-layout/
+Navbar.tsx
+Footer.tsx
+-sections/
+Hero.tsx
+WhyExplore.tsx
+EditorialSection.tsx
+Destinations.tsx
+FinalCTA.tsx
+-ui/
+DestinationCard.tsx
+-data/
+destinations.ts
+-assets/
+-images/
+-pages/
+Home.tsx
+App.tsx
+main.tsx
+
+---
+
+## 🎨 Objetivo do Projeto
+
+Este projeto foi desenvolvido com foco em:
+
+- criação de **interfaces modernas**
+- experimentação com **layouts cinematográficos**
+- utilização de **animações suaves**
+- desenvolvimento de **experiências visuais imersivas**
+- prática de **arquitetura front-end com React**
+
+A interface foi inspirada em **sites de turismo e experiências de viagem**.
+
+---
+
+## 📱 Design Responsivo
+
+O layout foi projetado para funcionar em diferentes dispositivos:
+
+- 📱 Smartphones
+- 💻 Tablets
+- 🖥 Desktop
+
+Algumas características do design responsivo incluem:
+
+- menu mobile com animação
+- grid adaptável de destinos
+- tipografia escalável
+- imagens otimizadas para diferentes telas
+
+---
+
+## ⚡ Performance
+
+Para melhorar o desempenho do site foram utilizadas algumas técnicas:
+
+- otimização de imagens
+- lazy loading
+- animações leves e eficientes
+- estrutura modular de componentes
+
+---
+
+## 👩‍💻 Autora
+
+**Maria Espigiorin**
+
+Estudante de Ciência da Computação e desenvolvedora focada em **Front-end, UI/UX e experiências digitais interativas**.
+
+GitHub  
+https://github.com/MariaEspigiorin
+
+LinkedIn  
+linkedin.com/in/mariaespigiorin
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para **fins educacionais e de portfólio**.
