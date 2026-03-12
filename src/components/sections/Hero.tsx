@@ -41,7 +41,7 @@ export default function Hero() {
           journeys through nature, culture and atmosphere.
         </p>
 
-        <div className="flex flex-col items-center gap-4 sm:flex-row">
+        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href="#destinations"
             className="rounded-full bg-sky-400 px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-slate-950 transition duration-300 hover:scale-[1.03] hover:bg-sky-300"
